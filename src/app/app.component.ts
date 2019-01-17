@@ -14882,9 +14882,9 @@ export class AppComponent {
     zoom: 3,
     minZoom: 4,
     maxZoom: 22,
-    provider: MapType.YANDEX,
+    provider: MapType.LEAFLET,
     enableDefaultControl: false,
-    enableClick: true,
+    enableClick: false,
   }
 
   clusterOptions = <IClusterOptions>{
