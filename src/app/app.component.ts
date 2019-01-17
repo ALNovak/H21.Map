@@ -1,12 +1,12 @@
 import { Component, ViewChild } from '@angular/core';
-import { IPosition } from './projects/h21-map/src/dto/interfaces/i-position';
-import { H21MaGeocodingDirective } from './projects/h21-map/src/components/h21-map-geocoding.directive';
-import { IBounds, MapType } from './projects/h21-map/src/dto';
-import { H21MapComponent } from './projects/h21-map/src/components/h21-map.component';
-import { H21MapMarkerDirective } from './projects/h21-map/src/components/h21-map-marker.directive';
-import { H21MapInfoBoxComponent } from './projects/h21-map/src/components/h21-map-info-box.component';
-import { H21MaSearchDirective } from './projects/h21-map/src/components/h21-map-search-directive';
-import { H21MapCircleDirective } from './projects/h21-map/src/components/h21-map-circle.directive';
+import { IPosition } from './dto/interfaces/i-position';
+import { H21MaGeocodingDirective } from './components/h21-map-geocoding.directive';
+import { IBounds, MapType } from './dto';
+import { H21MapComponent } from './components/h21-map.component';
+import { H21MapMarkerDirective } from './components/h21-map-marker.directive';
+import { H21MapInfoBoxComponent } from './components/h21-map-info-box.component';
+import { H21MaSearchDirective } from './components/h21-map-search-directive';
+import { H21MapCircleDirective } from './components/h21-map-circle.directive';
 
 var data = {
   "filter": null,
