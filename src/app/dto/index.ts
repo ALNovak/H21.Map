@@ -41,6 +41,7 @@ export * from './interfaces/i-icon';
 export * from './interfaces/i-init-map';
 export * from './interfaces/i-map';
 export * from './interfaces/i-map-manager';
+
 export * from './interfaces/i-map-options';
 export * from './interfaces/i-marker-cluster-options';
 export * from './interfaces/i-point';
