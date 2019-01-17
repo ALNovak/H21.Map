@@ -1,7 +1,7 @@
 import { CircleService } from "../../../services/abstract-circle";
 import { Observable, Observer } from "rxjs";
-import { H21MapCircleDirective } from "projects/h21-map/src/components/h21-map-circle.directive";
 import { NgZone, Injectable } from "@angular/core";
+import { H21MapCircleDirective } from "src/app/components/h21-map-circle.directive";
 
 declare var Editable: any;
 

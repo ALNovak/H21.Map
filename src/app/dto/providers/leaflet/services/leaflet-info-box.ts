@@ -1,7 +1,7 @@
 import { Injectable, NgZone } from "@angular/core";
 import { InfoBoxService } from "../../../services/abstract-info-box";
 import { Observable, Observer } from "rxjs";
-import { H21MapInfoBoxComponent } from "projects/h21-map/src/components/h21-map-info-box.component";
+import { H21MapInfoBoxComponent } from "src/app/components/h21-map-info-box.component";
 
 @Injectable()
 export class LeafletInfoBoxService extends InfoBoxService<L.Map,L.Marker> {

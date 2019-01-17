@@ -1,9 +1,9 @@
 import { Injectable } from "@angular/core";
 import { MarkerClusterService } from "../../../services/abstract-cluster";
 import { MarkerCluster } from '@h21-map/google-markercluster'
-import { H21MapMarkerDirective } from "projects/h21-map/src/components/h21-map-marker.directive";
-import { H21MapClusterDirective } from "projects/h21-map/src/components/h21-map-cluster.directive";
 import { CallbackName } from "../../../enum/e-callback-name";
+import { H21MapClusterDirective } from "src/app/components/h21-map-cluster.directive";
+import { H21MapMarkerDirective } from "src/app/components/h21-map-marker.directive";
 
 
 @Injectable()

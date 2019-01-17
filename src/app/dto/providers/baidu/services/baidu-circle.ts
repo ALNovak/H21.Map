@@ -1,9 +1,8 @@
 import { Injectable, NgZone } from "@angular/core";
 import { CircleService } from "../../../services/abstract-circle";
-import { H21MapCircleDirective } from "projects/h21-map/src/components/h21-map-circle.directive";
 import { Observable, Observer } from "rxjs";
-import { ICircleOptions } from "../../../interfaces/i-circle-options";
-import { IPosition } from "../../../interfaces/i-position";
+import { H21MapCircleDirective } from "src/app/components/h21-map-circle.directive";
+
 
 
 @Injectable()

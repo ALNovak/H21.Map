@@ -14882,7 +14882,7 @@ export class AppComponent {
     zoom: 3,
     minZoom: 4,
     maxZoom: 22,
-    provider: MapType.BAIDU,
+    provider: MapType.YANDEX,
     enableDefaultControl: false,
     enableClick: true,
   }

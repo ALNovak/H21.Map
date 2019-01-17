@@ -1,8 +1,8 @@
 import { Injectable, NgZone } from "@angular/core";
 import { InfoBoxService } from "../../../services/abstract-info-box";
 import { InfoBox } from '@h21-map/google-infobox'
-import { H21MapInfoBoxComponent } from "projects/h21-map/src/components/h21-map-info-box.component";
 import { Observer, Observable } from "rxjs";
+import { H21MapInfoBoxComponent } from "src/app/components/h21-map-info-box.component";
 
 declare var google;
 

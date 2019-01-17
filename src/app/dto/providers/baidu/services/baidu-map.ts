@@ -197,7 +197,7 @@ export class BaiduMapService extends MapService<BMap.Map, BMap.Marker> {
             this.api.addControl(new BMap.ScaleControl());
 
             mapOptions.enableDefaultControl ? this.api.addControl(new BMap.NavigationControl()) : null;
-
+            this.api.setMapStyle({ style: 'grayscale' });
             mapOptions.enableDoubleClickZoom ? this.api.enableDoubleClickZoom() : this.api.disableDoubleClickZoom();
             mapOptions.enableScrollwheel ? this.api.enableScrollWheelZoom() : this.api.disableScrollWheelZoom();
             this._zone.run(() => this.loadMap.next(true));

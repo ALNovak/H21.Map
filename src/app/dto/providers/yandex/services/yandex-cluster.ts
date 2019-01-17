@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { MarkerClusterService } from "../../../services/abstract-cluster";
-import { H21MapMarkerDirective } from "projects/h21-map/src/components/h21-map-marker.directive";
-import { H21MapClusterDirective } from "projects/h21-map/src/components/h21-map-cluster.directive";
+import { H21MapClusterDirective } from "src/app/components/h21-map-cluster.directive";
+import { H21MapMarkerDirective } from "src/app/components/h21-map-marker.directive";
 
 @Injectable()
 export class YandexMarkerClusterService extends MarkerClusterService<ymaps.Map,ymaps.GeoObject> {

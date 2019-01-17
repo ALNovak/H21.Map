@@ -1,8 +1,9 @@
 import { Injectable, NgZone } from "@angular/core";
 import { MarkerCluster } from '@h21-map/baidu-markercluster';
 import { MarkerClusterService } from "../../../services/abstract-cluster";
-import { H21MapClusterDirective } from "projects/h21-map/src/components/h21-map-cluster.directive";
-import { H21MapMarkerDirective } from "projects/h21-map/src/components/h21-map-marker.directive";
+import { H21MapClusterDirective } from "src/app/components/h21-map-cluster.directive";
+import { H21MapMarkerDirective } from "src/app/components/h21-map-marker.directive";
+
 
 declare var BMap;
 

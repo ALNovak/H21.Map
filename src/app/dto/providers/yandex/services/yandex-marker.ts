@@ -1,7 +1,7 @@
 import { Injectable, NgZone } from "@angular/core";
 import { MarkerService } from "../../../services/abstract-marker";
-import { H21MapMarkerDirective } from "projects/h21-map/src/components/h21-map-marker.directive";
 import { Observable, Observer } from "rxjs";
+import { H21MapMarkerDirective } from "src/app/components/h21-map-marker.directive";
 
 @Injectable()
 export class YandexMarkerService extends MarkerService<ymaps.Map, ymaps.GeoObject> {
