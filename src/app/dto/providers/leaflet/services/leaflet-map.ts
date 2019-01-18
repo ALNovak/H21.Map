@@ -235,7 +235,7 @@ export class LeafletMapService extends MapService<L.Map, L.Marker> {
                         }
                     };
                 } else {
-                    window.onload = () => {
+                    apiScript.onload = () => {
                         setTimeout(() => {
                             observer.next(true);
                         }, 500);
