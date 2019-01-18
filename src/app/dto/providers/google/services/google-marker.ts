@@ -30,9 +30,6 @@ export class GoogleMarkerService extends MarkerService<google.maps.Map, google.m
                 this.fitBounds();
             }
         }
-
-        super.addMarker();
-
     }
 
 

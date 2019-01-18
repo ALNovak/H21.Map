@@ -29,7 +29,7 @@ export class H21MapInfoBoxComponent implements OnChanges {
 
     @Input() zIndex: number = 9999;
 
-    @Input() closeBoxURL: string = " ";
+    @Input() closeBoxURL: string = "";
 
     @ViewChild('infoBoxContent') content: ElementRef;
 
